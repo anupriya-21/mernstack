@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Navbaar = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-danger">
+            <nav className="navbar navbar-expand-lg navbar-light bg-primary">
                 <div className="container-fluid">
                     <NavLink className="navbar-brand" to="/">CRUD APP</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
